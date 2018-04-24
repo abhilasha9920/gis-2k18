@@ -7,5 +7,21 @@
     <color name="darkGray">#616161</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="lightGray">#9ce7e7e7</color>
+    <color name="lightblack">#90000000</color>
+    <color name="transparentBlack">#2e000000</color>
+
+    <!-- Featured stories gradient -->
+    <color name="featured_story_start_color">#0297cf</color>
+    <color name="featured_story_center_color">#00678e</color>
+    <color name="featured_story_end_color">#002c3d</color>
+    <!-- Featured stories gradient -->
+
+    <!-- All stories gradient -->
+    <color name="all_story_start_color">#000000</color>
+    <color name="all_story_center_color">#e3191919</color>
+    <color name="all_story_end_color">#0f191919</color>
+    <!-- All stories gradient -->
+
 
 </resources>

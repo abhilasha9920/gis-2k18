@@ -34,6 +34,17 @@
     <string name="forgot_your_password">Forgot your password?</string>
     <string name="reset_here">Reset here.</string>
 
-    <string name="featured_story_sample_description">"25 Android libraries you definitely want to try out in early 2017"</string>
+    <!-- Stories section strings -->
+    <string name="all_story_profile_name">Akshit Jain</string>
+    <string name="all_story_date">19 april 2018</string>
+    <string name="all_story_title">My Story Name</string>
+    <string name="all_story_description">This story tells us about my experience as a google scholar</string>
+    <string name="all_story_read_time">3 min</string>
 
+    <string name="featured_story_read_time">3 min</string>
+    <string name="featured_story_profile_name">Akshit Jain</string>
+    <string name="featured_story_sample_description">"25 Android libraries you definitely want to try out in early 2017"</string>
+    <string name="story_heart_image_desc">Heart Icon</string>
+    <string name="story_profile_pic_desc">Profile Pic</string>
+    <!-- Stories section strings -->
 </resources>
