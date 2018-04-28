@@ -31,20 +31,34 @@
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
     <string name="sign_in">Sign In</string>
-    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="gis_2018">GIS 2018</string>
+    <string name="forgot_password">Forgot password?</string>
     <string name="reset_here">Reset here.</string>
 
-    <!-- Stories section strings -->
+
+    <!-- All Stories section strings -->
     <string name="all_story_profile_name">Akshit Jain</string>
     <string name="all_story_date">19 april 2018</string>
     <string name="all_story_title">My Story Name</string>
     <string name="all_story_description">This story tells us about my experience as a google scholar</string>
     <string name="all_story_read_time">3 min</string>
 
+    <string name="featured_story_sample_description">"25 Android libraries you definitely want to try out in early 2017"</string>
+    <string name="profile_gis_story_sample_description">"The journey of wanderer turned an Android Developer"</string>
+
+    <string name="profile_short_description_sample">"Hi! My name is Vineeth Reddy, I’m a passionate Android developer and I enjoy creating apps that create an impact in the world. Contact me at vineethreddy@gmail.com"</string>
+
+    <string name="profile_skills_sample">XML , ANDROID , FIREBASE , UI , ADOBE </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_url">https://github.com/knightcube</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Featured Stories section strings -->
     <string name="featured_story_read_time">3 min</string>
     <string name="featured_story_profile_name">Akshit Jain</string>
-    <string name="featured_story_sample_description">"25 Android libraries you definitely want to try out in early 2017"</string>
     <string name="story_heart_image_desc">Heart Icon</string>
     <string name="story_profile_pic_desc">Profile Pic</string>
-    <!-- Stories section strings -->
+    
 </resources>
