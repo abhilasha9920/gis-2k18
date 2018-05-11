@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.firebase.client.Firebase;
@@ -41,6 +42,8 @@ public class ProjectsFragment extends android.support.v4.app.Fragment {
     FirebaseDatabase mFirebaseDatabase;
     DatabaseReference mFirebaseDatabaseReference;
 
+    ProgressBar mProgressBar;
+
 
     @Nullable
     @Override
@@ -50,6 +53,28 @@ public class ProjectsFragment extends android.support.v4.app.Fragment {
 
         projectsRecyclerView = rootView.findViewById(R.id.projectsRecyclerView);
         createProjectBtn = rootView.findViewById(R.id.create_projects_fab_btn);
+<<<<<<< HEAD
+        projectsRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(),2));
+        createProjectBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(),CreateProjectActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        projectList = new ArrayList<Project>();
+=======
+>>>>>>> upstream/master
+        projectsRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(),2));
+        createProjectBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(),CreateProjectActivity.class);
+                startActivity(intent);
+            }
+        });
+
         projectList = new ArrayList<Project>();
         projectsRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(),2));
         createProjectBtn.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +84,11 @@ public class ProjectsFragment extends android.support.v4.app.Fragment {
                 startActivity(intent);
             }
         });
+
+        projectList = new ArrayList<Project>();
+        projectsRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(),2));
+        mProgressBar = rootView.findViewById(R.id.progress_barProjects);
+        createProjectBtn.setVisibility(View.GONE);
 
         readProjectsFirebase();
 
@@ -81,6 +111,7 @@ public class ProjectsFragment extends android.support.v4.app.Fragment {
                 }
                 projectsAdapter = new ProjectsAdapter(getContext(), projectList);
                 projectsRecyclerView.setAdapter(projectsAdapter);
+                mProgressBar.setVisibility(View.GONE);
 
             }
 
